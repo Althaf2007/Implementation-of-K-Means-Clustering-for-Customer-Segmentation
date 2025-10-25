@@ -7,11 +7,16 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
-1. 
-2. 
-3. 
-4. 
+## Algorithm:
+
+1. Import the standard libraries.
+2. Upload the dataset and check for any null values using .isnull() function. 
+3. Import LabelEncoder and encode the dataset.
+4. Import DecisionTreeRegressor from sklearn and apply the model on the dataset.
+5. Predict the values of arrays.
+6. Import metrics from sklearn and calculate the MSE and R2 of the model on the dataset.
+7. Predict the values of array.
+8. Apply to new unknown values
 
 ## Program:
 ```
@@ -52,19 +57,21 @@ plt.show()
 
 ## Output:
 
-## Data Head :
-<img width="425" height="292" alt="image" src="https://github.com/user-attachments/assets/0fb15f6e-5b4d-444b-8e9b-d9cf3d900e9f" />
+## Data Head:
+
+<img width="486" height="366" alt="Screenshot 2025-10-25 132621" src="https://github.com/user-attachments/assets/5f0b29e0-00f8-43bb-b8bb-b0efb09bdce3" />
 
 ## Data Info :
-<img width="413" height="259" alt="image" src="https://github.com/user-attachments/assets/46288728-82cb-4838-b41b-2fb86c4aac9e" />
+
+<img width="475" height="300" alt="Screenshot 2025-10-25 132638" src="https://github.com/user-attachments/assets/9467f515-3d6c-4ff1-9117-f32db8d2a6a6" />
 
 ## Data Details :
-<img width="525" height="632" alt="image" src="https://github.com/user-attachments/assets/eec7ef0b-1f19-4e68-b5a6-84ef9d60464a" />
+
+<img width="657" height="774" alt="Screenshot 2025-10-25 132705" src="https://github.com/user-attachments/assets/93ac721b-8c48-4c4f-9952-6dceb3970894" />
 
 ## Data Predcition :
-<img width="1218" height="447" alt="image" src="https://github.com/user-attachments/assets/76835aa5-73c5-45aa-b674-f8c41187ea01" />
 
-
+<img width="1034" height="391" alt="Screenshot 2025-10-25 132719" src="https://github.com/user-attachments/assets/b96f5940-1f5c-44c7-9e8c-7390aeb5f416" />
 
 ## Result:
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
